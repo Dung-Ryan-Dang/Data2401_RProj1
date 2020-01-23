@@ -15,7 +15,7 @@ library(datasauRus)
 
 ### Exercise 1
 
-(Type your answer to Exercise 1 here. This exercise does not require any R code. **Remove notes like this in your final product**)
+the datasaurus_dozen file has 3 collums. The variables included are dataset,x,y.
 
 ### Exercise 2
 
