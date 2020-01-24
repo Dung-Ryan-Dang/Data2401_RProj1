@@ -4,6 +4,7 @@ author: "Dung 'Ryan' Dang"
 date: "1/23/2020"
 output: 
   html_document: 
+    fig_caption: yes
     fig_height: 10
 ---
 
@@ -25,7 +26,7 @@ the datasaurus_dozen file has 3 collums. The variables included are dataset,x,y.
 
 First let's plot the data in the dino dataset:
 
-```{r plot-dino, fig.height=3, fig.width=6}
+```{r plot-dino, fig.height=7, fig.width=7}
 dino_data <- datasaurus_dozen %>%
   filter(dataset == "dino")
 ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
@@ -43,7 +44,7 @@ dino_data %>%
 
 First let's plot the data in the star dataset:
 
-```{r plot-star, fig.height=3, fig.width=6}
+```{r plot-star, fig.height=7, fig.width=7}
 star_data <- datasaurus_dozen %>%
   filter(dataset == "star")
 ggplot(data = star_data, mapping = aes(x = x, y = y)) +
@@ -59,7 +60,7 @@ star_data %>%
 
 First let's plot the data from the circle dataset:
 
-```{r plot-circle, fig.height=3, fig.width=6}
+```{r plot-circle, fig.height=7, fig.width=7}
 circle_data <- datasaurus_dozen %>%
   filter(dataset == "circle")
 ggplot(data = circle_data, mapping = aes(x = x, y = y)) +
