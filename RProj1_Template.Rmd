@@ -6,6 +6,8 @@ output:
   html_document: 
     fig_caption: yes
     fig_height: 10
+    highlight: tango
+    theme: yeti
 ---
 
 ### Load packages
