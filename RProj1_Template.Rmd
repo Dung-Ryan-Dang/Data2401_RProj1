@@ -20,7 +20,7 @@ library(datasauRus)
 
 ### Exercise 1
 
-the datasaurus_dozen file has 3 collums. The variables included are dataset,x,y.
+the datasaurus_dozen file has 3 collums and 142 rows. The variables included are dataset,x,y.
 
 ### Exercise 2
 
